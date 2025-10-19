@@ -1,0 +1,56 @@
+# GIS and Mapping Files
+# ----------------------
+
+# QGIS
+*.qgs~
+*.qgz~
+.qgis_plugin_cache/
+*.pyc
+__pycache__/
+
+# ArcGIS
+*.lock
+*.gdb/
+*.sde
+*.tbx
+*.mxd.orig
+scratch/
+Info/
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Large data files (consider using Git LFS)
+# Uncomment if you want to exclude large files
+# *.tif
+# *.tiff
+# *.img
+# *.sid
+# *.jp2
+# *.geojson
+# *.shp
+# *.dbf
+# *.shx
+# *.prj
+# *.gpkg
+
+# Output/Export directories
+output/
+exports/
+temp/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.sublime-*
+
+# System Files
+.Trashes
+.Spotlight-V100
+.fseventsd
